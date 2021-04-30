@@ -13,34 +13,84 @@ struct BrowseView: View {
             VStack {
                 List {
                     NavigationLink(destination: ContentView()) {
-                        Text("Activity")
+                        HStack {
+                            Image("flame")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Activity")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Body Measurements")
+                        HStack {
+                            Image("body")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Body Measurements")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Cycle Tracking")
+                        HStack {
+                            Image("cycling")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Cycle Tracking")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Hearing")
+                        HStack {
+                            Image("ear")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Hearing")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Heart")
+                        HStack {
+                            Image("heart")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Heart")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Mindfulness")
+                        HStack {
+                            Image("brain")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Mindfulness")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Mobility")
+                        HStack {
+                            Image("right-arrow")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Mobility")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Nutrition")
+                        HStack {
+                            Image("plan")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Nutrition")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Respiratory")
+                        HStack {
+                            Image("lungs")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Respiratory")
+                        }
                     }
                     NavigationLink(destination: ContentView()) {
-                        Text("Sleep")
+                        HStack {
+                            Image("sleep-1")
+                                .resizable()
+                                .frame(width: 25, height: 25)
+                            Text("Sleep")
+                        }
                     }
                 }
                 .navigationTitle("Health Categories")
