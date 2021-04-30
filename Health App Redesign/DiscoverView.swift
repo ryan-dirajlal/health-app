@@ -11,7 +11,7 @@ struct DiscoverView: View {
     var body: some View {
         NavigationView {
             VStack {
-                
+//
 //                Text("Blog Posts")
 //                    .font(.title)
 //
