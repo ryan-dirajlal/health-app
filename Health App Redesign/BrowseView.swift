@@ -10,40 +10,59 @@ import SwiftUI
 struct BrowseView: View {
     var body: some View {
         NavigationView {
-            List {
-                NavigationLink(destination: ContentView()) {
-                    Text("Activity")
+            VStack {
+                List {
+                    NavigationLink(destination: ContentView()) {
+                        Text("Activity")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Body Measurements")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Cycle Tracking")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Hearing")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Heart")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Mindfulness")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Mobility")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Nutrition")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Respiratory")
+                    }
+                    NavigationLink(destination: ContentView()) {
+                        Text("Sleep")
+                    }
                 }
-                NavigationLink(destination: ContentView()) {
-                    Text("Body Measurements")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Cycle Tracking")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Hearing")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Heart")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Mindfulness")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Mobility")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Nutrition")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Respiratory")
-                }
-                NavigationLink(destination: ContentView()) {
-                    Text("Sleep")
+                .navigationTitle("Health Categories")
+                .toolbar{
+                    ToolbarItemGroup(placement: .navigationBarTrailing)
+                    {
+                        
+                        Button( action: {
+                            print("Profile pic pressed")
+                        })
+                       {
+                            HStack
+                            {
+                            Image(systemName: "person.circle.fill")
+                                
+                            }
+                        }
+                    }
                 }
             }
-            .navigationTitle("Health Categories")
         }
+        Spacer()
     }
 }
 

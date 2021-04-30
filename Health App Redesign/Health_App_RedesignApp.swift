@@ -20,9 +20,7 @@ struct Health_App_RedesignApp: App {
                     Image(systemName: "bonjour")
                     Text("Timeline")
                 }
-                
-
-            
+                            
                 
                 NavigationView {
                     FavoritesView()
