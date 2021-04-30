@@ -112,7 +112,6 @@ struct BrowseView: View {
                 }
             }
         }
-        Spacer()
     }
 }
 
