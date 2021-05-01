@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct BrowseView: View {
+    @State private var navigationSelectionTag: Int? = 0
     var body: some View {
-        NavigationView {
+        //NavigationView {
+        VStack {
+                        NavigationLink(destination: ProfileView(), tag: 1, selection: self.$navigationSelectionTag) {
+                            EmptyView()
+                        }
+                        Spacer()
+        
             VStack {
                 List {
                     NavigationLink(destination: ContentView()) {
@@ -99,7 +106,7 @@ struct BrowseView: View {
                     {
                         
                         Button( action: {
-                            print("Profile pic pressed")
+                            self.navigationSelectionTag = 1
                         })
                        {
                             HStack
@@ -110,9 +117,12 @@ struct BrowseView: View {
                         }
                     }
                 }
+               // .navigationBarHidden(true)
+              
             }
         }
     }
+//}
 }
 
 struct BrowseView_Previews: PreviewProvider {
