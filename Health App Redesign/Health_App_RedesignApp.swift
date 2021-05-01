@@ -13,7 +13,6 @@ struct Health_App_RedesignApp: App {
         WindowGroup {
             TabView {
                 NavigationView {
-                    //discoverView(location: locations.primary)
                     TimelineView()
                 }
                 .tabItem {
@@ -56,11 +55,7 @@ struct Health_App_RedesignApp: App {
                     Image(systemName: "safari")
                     Text("Discover")
                 }
-                
-
-                
-                
-              
+ 
             }
         }
     }

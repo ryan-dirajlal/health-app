@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D69F672263DBB940097BB18 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D69F671263DBB940097BB18 /* ProfileView.swift */; };
+		1D69F676263DD6710097BB18 /* friendsActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D69F675263DD6710097BB18 /* friendsActivity.swift */; };
+		1D69F678263E03E40097BB18 /* userActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D69F677263E03E40097BB18 /* userActivity.swift */; };
 		1D7B1BF72630C3CC00523901 /* Health_App_RedesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B1BF62630C3CC00523901 /* Health_App_RedesignApp.swift */; };
 		1D7B1BF92630C3CC00523901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B1BF82630C3CC00523901 /* ContentView.swift */; };
 		1D7B1BFB2630C3CD00523901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7B1BFA2630C3CD00523901 /* Assets.xcassets */; };
@@ -20,13 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D69F671263DBB940097BB18 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1D69F675263DD6710097BB18 /* friendsActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsActivity.swift; sourceTree = "<group>"; };
+		1D69F677263E03E40097BB18 /* userActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userActivity.swift; sourceTree = "<group>"; };
 		1D7B1BF32630C3CC00523901 /* Health App Redesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health App Redesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7B1BF62630C3CC00523901 /* Health_App_RedesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_App_RedesignApp.swift; sourceTree = "<group>"; };
 		1D7B1BF82630C3CC00523901 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D7B1BFA2630C3CD00523901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D7B1BFD2630C3CD00523901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D7B1BFF2630C3CD00523901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D7B1C062630C3EC00523901 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		1D7B1C062630C3EC00523901 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		1D7B1C092635D6D100523901 /* HighlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightsView.swift; sourceTree = "<group>"; };
 		1D7B1C0C2635D83B00523901 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		1D7B1C0F2635D87A00523901 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -68,10 +74,13 @@
 				1DD0A6F52639048700EA4A2D /* FavoritesView.swift */,
 				1D7B1BF82630C3CC00523901 /* ContentView.swift */,
 				1D7B1C062630C3EC00523901 /* TimelineView.swift */,
+				1D69F677263E03E40097BB18 /* userActivity.swift */,
+				1D69F675263DD6710097BB18 /* friendsActivity.swift */,
 				1D7B1C092635D6D100523901 /* HighlightsView.swift */,
 				34808324263CCA4E0029AC05 /* HighlightsCalendarView.swift */,
 				1D7B1C0C2635D83B00523901 /* BrowseView.swift */,
 				1D7B1C0F2635D87A00523901 /* DiscoverView.swift */,
+				1D69F671263DBB940097BB18 /* ProfileView.swift */,
 				1D7B1BFA2630C3CD00523901 /* Assets.xcassets */,
 				1D7B1BFF2630C3CD00523901 /* Info.plist */,
 				1D7B1BFC2630C3CD00523901 /* Preview Content */,
@@ -157,11 +166,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D7B1BF92630C3CC00523901 /* ContentView.swift in Sources */,
+				1D69F672263DBB940097BB18 /* ProfileView.swift in Sources */,
 				1D7B1C0A2635D6D100523901 /* HighlightsView.swift in Sources */,
 				1D7B1C0D2635D83B00523901 /* BrowseView.swift in Sources */,
 				1D7B1C072630C3EC00523901 /* TimelineView.swift in Sources */,
 				1DD0A6F62639048700EA4A2D /* FavoritesView.swift in Sources */,
+				1D69F678263E03E40097BB18 /* userActivity.swift in Sources */,
 				1D7B1BF72630C3CC00523901 /* Health_App_RedesignApp.swift in Sources */,
+				1D69F676263DD6710097BB18 /* friendsActivity.swift in Sources */,
 				1D7B1C102635D87A00523901 /* DiscoverView.swift in Sources */,
 				34808325263CCA4E0029AC05 /* HighlightsCalendarView.swift in Sources */,
 			);

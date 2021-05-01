@@ -9,9 +9,15 @@ import SwiftUI
 
 struct FavoritesView: View {
     @State private var name = ""
+    @State private var navigationSelectionTag: Int? = 0
     var body: some View {
         ScrollView{
         VStack {
+            NavigationLink(destination: ProfileView(), tag: 1, selection: self.$navigationSelectionTag) {
+                EmptyView()
+            }
+            Spacer()
+            
             HStack{
                 Spacer()
             
@@ -141,7 +147,7 @@ struct FavoritesView: View {
             {
                 
                 Button( action: {
-                    print("Profile pic pressed")
+                    self.navigationSelectionTag = 1
 })
                {
                     HStack
