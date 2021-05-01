@@ -16,6 +16,7 @@
 		1D7B1C0D2635D83B00523901 /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B1C0C2635D83B00523901 /* BrowseView.swift */; };
 		1D7B1C102635D87A00523901 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B1C0F2635D87A00523901 /* DiscoverView.swift */; };
 		1DD0A6F62639048700EA4A2D /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD0A6F52639048700EA4A2D /* FavoritesView.swift */; };
+		34808325263CCA4E0029AC05 /* HighlightsCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34808324263CCA4E0029AC05 /* HighlightsCalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1D7B1C0C2635D83B00523901 /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
 		1D7B1C0F2635D87A00523901 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		1DD0A6F52639048700EA4A2D /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		34808324263CCA4E0029AC05 /* HighlightsCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightsCalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1D7B1BF82630C3CC00523901 /* ContentView.swift */,
 				1D7B1C062630C3EC00523901 /* TimelineView.swift */,
 				1D7B1C092635D6D100523901 /* HighlightsView.swift */,
+				34808324263CCA4E0029AC05 /* HighlightsCalendarView.swift */,
 				1D7B1C0C2635D83B00523901 /* BrowseView.swift */,
 				1D7B1C0F2635D87A00523901 /* DiscoverView.swift */,
 				1D7B1BFA2630C3CD00523901 /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 				1DD0A6F62639048700EA4A2D /* FavoritesView.swift in Sources */,
 				1D7B1BF72630C3CC00523901 /* Health_App_RedesignApp.swift in Sources */,
 				1D7B1C102635D87A00523901 /* DiscoverView.swift in Sources */,
+				34808325263CCA4E0029AC05 /* HighlightsCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
